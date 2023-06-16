@@ -1,0 +1,1 @@
+python train.py --task nc --dataset film --model HKPNet --dim 16 --lr 0.005 --num-layers 2 --act relu --bias 1 --dropout 0.05 --weight-decay 1e-4 --manifold Lorentz --log-freq 5 --patience 1500 --linear-before 16 --cuda 0 --kernel-size 8

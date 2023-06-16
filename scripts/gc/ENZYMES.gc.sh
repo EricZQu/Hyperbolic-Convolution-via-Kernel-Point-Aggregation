@@ -1,0 +1,1 @@
+python train.py --task gc --dataset ENZYMES --model HKPNet  --normalize-feats 1 --log-freq 5   --epochs 5000  --patience 1000  --lr 0.05  --dim 16 --dropout 0.05 --num-layers 4 --batch-size 32 --val-prop 0.1 --test-prop 0 --cuda 0 --kernel-size 4
