@@ -1,0 +1,4 @@
+networkx
+scikit-learn
+scipy
+geoopt==0.5.0
